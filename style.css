@@ -14,11 +14,14 @@ html, body {
   height: 100%;
   background-color: rgb(0, 55, 0);
   padding-top: 7vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #dealer-hand,
 #player-hand {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 10px;
 }
@@ -40,4 +43,25 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-grow: 1;
+}
+
+#game-rules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 5px;
+}
+
+.line {
+  width: 7.5rem;
+  height: 0.5rem;
+  background-color: yellow;
+  border-radius: 0.25rem;
+}
+
+.orange-text {
+  color: rgb(255, 75, 0);
 }
