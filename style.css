@@ -65,3 +65,34 @@ html, body {
 .orange-text {
   color: rgb(255, 75, 0);
 }
+
+#payout-tables {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#pair-plus-payout-table {
+  color: yellow;
+}
+
+#ante-bonus-payout-table {
+  color: rgb(255, 75, 0);
+  margin-top: 3vh;
+}
+
+#six-card-bonus-payout-table {
+  color: white;
+  margin-left: 3vw;
+}
+
+.payout-table-title {
+  text-align: center;
+  margin-bottom: 0.5vh;
+}
+
+.payout-table-row {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
